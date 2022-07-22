@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odin-JS-Weather-App</title>
+    <link rel="stylesheet" href="style/common.css" />
+    <script src="script/main.js" defer></script>
+  </head>
+  <body>
+    <div id="root">
+      <div class="output-place hidden">
+        <div><span class="country"></span>/<span class="city"></span></div>
+        <div>It is <span class="how"></span> today</div>
+        <div><span class="degree"></span> fahrenheit</div>
+        <div>wind speed is <span class="wind-speed"></span></div>
+      </div>
+      <div class="output-place-placeholder">
+        Hey there!
+      </div>
+
+      <div class="input-handle-container">
+        <input type="text" id="user-input" />
+        <button id="request-button">Request!</button>
+      </div>
+    </div>
+  </body>
+</html>
